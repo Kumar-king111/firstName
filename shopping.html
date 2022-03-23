@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css "
+      rel="stylesheet"
+    />
+
+</head>
+<body>
+    <!--navigation bar--------------------------------------------------->
+<nav class="navigation">
+    <!-- <!-=logo--> 
+    <a href="dropdown.html" class="logo">FASHION</a>
+<!---dropdown--------------->
+<div class="drop2">
+    <label for="prod">Select</label>
+    <select id="prod" name="prod">
+        <option value="select">select Item</option>
+    </select>
+    <div class="box-modal" id="box">
+        </div>
+    <!--menu-->
+    <ul class="menu">
+       <li><a href="wepapgecreation.html" class="active">Home</a></li>
+       <li><a href="shopping.html">Shopping</a></li>
+       <li><a href="products.html">Product</a></li>
+       <!----cart symbol-->
+       <div>
+        <li class="cart">
+            <a href="cart.html">
+              <ion-icon name="basket"></ion-icon>cart<span>0</span>
+            </a>
+          </li>
+    </div>
+       
+    </ul>
+    
+</nav>
+
+<!---navigation bar end-------------------------------------------->
+<!--categaries----------------------------------------------->
+<section id="categories">
+    <!--heading-->
+  
+    <h2>categories</h2>
+    <!--box container-->
+   
+    <div class="category-container">
+    <!--box-1-->
+    <a href="products.html" class="category-box">
+        <img src="/images/shirts.png" alt="category">
+        <span>shirts</span>
+    </a>
+     <!--box 2-->
+     <a href="products.html" class="category-box">
+        <img src="/images/pants.png" alt="category">
+        <span>pants</span>
+    </a>
+     <!--box3-->
+     <a href="products.html" class="category-box">
+        <img src="/images/jocket.png" alt="category">
+        <span>jockets</span>
+    </a>
+     <!--box 4-->
+     <a href="products.html" class="category-box">
+        <img src="/images/shoes.png" alt="category">
+        <span>shoes</span>
+    </a>
+</div>
+</section>
+
+<!--category ended-------------------------------------->
+<script src="addtocart.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+</html>

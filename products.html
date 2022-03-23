@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css "
+      rel="stylesheet"
+    />
+
+
+</head>
+<body>
+    <!--navigation bar--------------------------------------------------->
+<nav class="navigation">
+    <!-- <!-=logo--> 
+    <a href="dropdown.html" class="logo">FASHION</a>
+<!---dropdow--------------->
+<div class="drop1">
+    <label for="prod">Select</label>
+    <select id="prod" name="prod">
+        <option value="select">select Item</option>
+    </select>
+    <div class="box-modal" id="box">
+        </div>
+    <!--menu-->
+    <ul class="menu">
+       <li><a href="wepapgecreation.html" class="active">Home</a></li>
+       <li><a href="shopping.html">Shopping</a></li>
+       <li><a href="products.html">Product</a></li>
+       <div>
+        <li class="cart">
+            <a href="cart.html">
+              <ion-icon name="basket"></ion-icon>cart<span>0</span>
+            </a>
+          </li>
+    </div>
+    </ul>
+</nav>
+<!---navigation bar end-------------------------------------------->
+    <!----feature products-------------------------------->
+
+<section id="feature-product">
+    <!---heading-->
+    <h2>Feature-product</h2>
+    
+    <!---box-container-->
+    <div class="feature-product-container">
+    
+        <!----box1-->
+        <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/feature product.png" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>Branded Nike</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>  
+            
+        
+            </div>
+    
+        </div>
+    
+         <!----box2-->
+         <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/images1.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>Sweaters for men</strong>
+                <span>Rs.599.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>    
+        
+            </div>
+    
+        </div>
+    
+         <!----box3-->
+         <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/8.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>Mens fashion</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>     
+        
+            </div>
+    
+        </div>
+    
+         <!----box4-->
+         <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/12.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>T-shirts for men</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>    
+        
+            </div>
+    
+        </div>
+    </div>
+    
+    
+    </section>
+<!--  new --product--------------------------------------------- -->
+
+<!----feature products-------------------------------->
+
+<section id="feature-product">
+    <!---heading-->
+    <h2>Our products</h2>
+    
+    <!---box-container-->
+    <div class="feature-product-container">
+    
+        <!----box1-->
+        <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/images2.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>new collection</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>      
+        
+            </div>
+    
+        </div>
+    
+         <!----box2-->
+         <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/2.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>collections for men</strong>
+                <span>Rs.599.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>      
+        
+            </div>
+    
+        </div>
+    
+         <!----box3-->
+         <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/images3.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>Mens fashion</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>  >     
+        
+            </div>
+    
+        </div>
+    
+         <!----box4-->
+         <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/9.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>T-shirts for men</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>  
+        
+            </div>
+            
+    
+        </div>
+        <!----box5-->
+        <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/6.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>formals for men</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>    
+        
+            </div>
+            
+    
+        </div>
+        <!----box6-->
+        <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/10.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>T-shirts for men</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>     
+        
+            </div>
+            
+        </div>
+        <!----box4-->
+        <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/11.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>Sweaters for men</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>  
+        
+            </div>
+            
+    
+        </div>
+        <!----box8-->
+        <div class="feature-product-box">
+            <!---img-->
+            <div class="product-feature-img">
+                <img src="/images/1.jpg" alt="image">
+            </div>
+            <!---text-container-->
+            <div class="product-feature-text-container">
+                <!--text-->
+            <div class="product-feature-text">
+                <strong>Sweaters for men</strong>
+                <span>Rs.499.00</span>
+            </div>  
+            <!--cart like icon-->
+            <div class="cart-like" >
+            
+
+                <button
+                 class="cart" href=""onclick="cartNumbers(event)">
+                    <li class="fas fa-shopping-cart"></li>
+                </button>
+               <!--- icon for remove cart-->
+               <button class="cart" href=""onclick="RemovecartNumbers()">
+                <ion-icon name="close"></ion-icon>
+               </button> 
+            </div>     
+        
+            </div>
+            
+    
+        </div>
+    </div>
+   
+    </section>
+   
+
+<!-----banner----------->
+<section id="banner">
+
+    <!---test-->
+    <div class="banner-text">
+        <strong>beautiful shoes</strong>
+        <span>from Rs.399</span>
+        <p>long lasting and confortable to use.this is only for you.</p>
+        <button class="cart" href=""onclick="cartNumbers(event)">shop now</button>
+    </div>
+    <!----image-->
+   
+    <div class="banner-image">
+        <img src="/images/PngItem_3867408.png" alt="png">
+    </div>
+
+</section>
+<!-- banner ended------------------------------------- -->
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="addtocart.js"></script>
+</body>
+</html>
